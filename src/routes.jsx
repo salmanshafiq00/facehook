@@ -8,23 +8,23 @@ import NotFoundPage from "./pages/NotFoundPage";
 const routes = createBrowserRouter([
   {
     path: "/",
-    component: HomePage
+    Component: HomePage
   },
   {
     path: "/login",
-    component: LoginPage
+    Component: LoginPage
   },
   {
     path: "/register",
-    component: RegisterPage
+    Component: RegisterPage
   },
   {
     path: "/profile",
-    component: ProfilePage  
+    Component: ProfilePage  
   },
   {
     path: "*",
-    component: NotFoundPage
+    Component: NotFoundPage
   }
 ]);
 
